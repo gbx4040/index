@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left 4 Dead 2</title>
+  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #b40303;
+            background-position: center;
+            background-color: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        div{
+            background-image: url("portada.JFIF") ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 35px;
+            color: rgb(241, 235, 235);
+        }
+        div{
+            color: rgb(231, 240, 230);
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #dbd9e0;
+        }
+        h3 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            color: rgb(139, 192, 253);
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav button {
+            background-color: #aa0a0a;
+            color: rgb(240, 230, 230);
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        nav button:hover {
+            background-color: #585b0d;
+        }
+
+        section {
+            padding: 20px;
+            color: white; 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .button:hover{
+            background-color: #0041f3;
+        }
+        h1{
+            color: aqua;
+            height: 100px;
+            width: 75px;
+        }
+
+        #zombis {
+            background-image: url('fondo11.jfif'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 350px;
+            width: 250px;
+        }
+        section h2 {
+            color: #88f9fd;
+        }
+
+        .back-to-nav {
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .back-to-nav a {
+            color: #dbd9e0;
+            text-decoration: none;
+            font-weight: bold;
+        }       
+
+        .back-to-nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body background="fondo6.jfif">
+    <h1>Estadisticas Generales de los Infectados Especiales</h1>
+    <button onclick="location.href='#salida'"></button>
+    <button onclick="location.href='#zombis'"></button>
+
+    <div id="salida">
+        <a href="disenoweb.html#infectados">Salida al Menu principal</a>
+    </div>
+
+    <h3><marquee>Aqui estan datos englobados de manera general sobre los infectados especiales que vemos al rededor del juego</marquee></h3>
+
+    <section id="zombis">
+        <table>
+            <tr>
+                <td><img src="jockey1.jfif" height="400" width="300"></td>
+                <td><textarea height="400" width="300">El JOKEY 
+                    Habilidad: Puede saltar encima de los supervivientes y hacer que el jugador pierda en un 90% el control del personaje 
+                    Puntos de Vida: El Jockey tiene  puntos de vida.
+                    Debilidades: 
+                    - El empujón (Que se realiza con el botón derecho del ratón), muere de empujones, dicho también si alcanzamos al jockey cuando esté agarre a un de los personajes podremos empujarlo para que suelte a nuestro compañero y de ahí matar al infectado.
+                    - Fuego: Una ves prendido en fuego el Jockey morirá en segundos 
+                    - Insta-Kill: Si se le da al jokey un empujón en medio salto y con buenos reflejos apuntarle en la parte inferior de su cuerpo este morirá al instante.
+                    Tiempo de Recarga: El Jockey podrá volver a realizar su habilidad instantáneamente si es que incapacita o mata a un superviviente; Su habilidad volverá a recargar en segundos si es q se lo detiene en el momento de su salto o si lo empujamos.</textarea></td>
+                <td><img src="hunter3.jfif" height="400" width="300"></td>
+                <td><textarea height="400" width="300">El HUNTER 
+                    Habilidad: La habilidad principal de el Hunter es la de Saltar a una gran altura o distancia de un superviviente y así causarle daño por cada rasca y gana, dependiendo la altura o distancia (mayormente altura) a la que se encuentre de un superviviente este le un daño extra por caída al superviviente quitando un máximo de 25 puntos de vida.
+                    Puntos de vida: El Hunter se encuentra en un punto medio de vida pues este cuenta con puntos de vida.
+                    Debilidades: 
+                    - Empujón: Al igual que los demás infectados de agarre este no se lleva bien con los empujones pues podremos matarlo de 4 empujones y si agarra a un superviviente podremos soltarlo si lo empujamos.
+                    - Dead-Stop: Al igual que el anterior si lo empujamos a medio vuelo podremos detener su agarre y así poder matarlo con un arma de fuego o una melee sin poder escapar.
+                    - Tiro al Plato: Aun que para esto se necesita un poco más de reflejos podremos matar al Hunter en mitad de vuelo de un único disparo con una escopeta.
+                    - Fuego: El Hunter no cuenta con muchos puntos de vida así que si se lo prende en fuego morirá en segundos 
+                    Tiempo de Recarga: El Hunter recargara en un segundo su habilidad una ves se agache para atacar, estando parado su habilidad no se recargara.</textarea></td>
+            </tr>
+            <tr>
+                <td><img src="changer1.jfif" height="400" width="300"></td>
+                <td><textarea height="400" width="300">El CHARGER 
+                    Habilidad: La habilidad principal del Charger es la de correr a una buena velocidad y empujar a todos los supervivientes que tenga en su camino (dicho de paso les quitará vida por el impacto del choque), agarrara a un superviviente y lo chocara contra el suelo o la pared, es el único infectado de agarre al que no se le puede empujar 
+                    Puntos de Vida: Este infectado al ser de los más fuertes cuenta con puntos de vida.
+                    Debilidades: 
+                    - Golpes de Armas Cuerpo a Cuerpo: A pesar de ser muy fuerte este infectado morirá con tan solo 2 golpes de melee sea cual sea el arma.
+                    - Golpe a la Cabeza: En el momento en el que el Charger si disponga a atacar y nosotros contemos con buena vista y buena precisión le podremos matar de un solo golpe de melee siempre y cuando le apuntemos a la cabeza, pero solo hay una oportunidad asi que es mejor no fallar.
+                    Tiempo de Recarga: El Charger recargara su habilidad instantáneamente si es que mata a un superviviente o explota una bomba o un boomer cerca de el</textarea></td>
+                <td><img src="smooker1.jfif" height="400" width="300"></td>
+                <td><textarea height="400" width="300">El SMOOKER
+                    Habilidad: Es un infectado de agarre, su habilidad se basa en un agarre con lengua, esto quiere decir que agarrara a los supervivientes y los arrastrará hacia el para causarles daño.
+                    Puntos de Vida: El Smooker cuenta con puntos de vida.
+                    Debilidades:
+                    - El empujón: Este infectado no se lleva bien con los empujones puesto que podremos matarlo con solo 5 de estos, aparte si este agarra a un superviviente con su lengua fácilmente podremos liberar a nuestro compañero empujándolo o disparando la lengua del Smooker.
+                    - Fuego: No cuenta con muchos puntos de vida por lo que aguantará ardiendo.
+                    - Tapón: Nombrado así por la comunidad hispanohablante del juego, está debilidad consta de que si se tiene los suficientes reflejos, podrás tirarle un objeto (Bombona de propano, lata de gasolina, Garrafa de Gas, Gnomo) al Smooker en el momento que esté active su habilidad "agarrando" así el objeto en ves de al superviviente.
+                    - Corte: Al igual que el anterior si tienes buenos reflejos y tienes una melee cortante, en el momento en que este infectado active su habilidad podrás cortarle la lengua y evitar el agarre.
+                    Tiempo de Recarga: Una ves hecho el ataque el Smooker podrá volver a hacerlo pasado 3 segundos si es que tirará la lengua a la nada, si es que se la detenemos con el tapón o se la cortamos; tardará segundos después de haber matado a un superviviente.</textarea></td>
+            </tr>
+            <tr>
+                <td><img src="witch1.jfif" height="400" width="300"></td>
+                <td><textarea height="400" width="300">La WITCH
+                    Habilidad: Es de los Infectados más peligrosos que hay en el juego, puesto que esté de un solo golpe le quitará todos los puntos de vida a un superviviente, y si nos encontramos en la dificultad de realismo o experto o una combinación, la Witch nos matará por completo, si no es el caso, una ves realizado su ataque nos hará daño hasta matar a nuestro personaje.
+                    Puntos de vida: La Witch cuenta con 1000 puntos de vida así que no morirá tan fácilmente.
+                    Debilidades:
+                    - Tiro Directo: O quizás si muera siempre y cuando no falles este ataque, pues si disparas a la Witch antes de espantarla podrás matarle de un único disparo de cualquier escopeta es la única arma de fuego que puede matarla instantáneamente.
+                    - Head-Shot: Si nos encontramos en dificultad experto la anterior debilidad no se aplica pues cuenta con más vida, pero como dice el nombre si apuntamos precisamente todas las balas de la escopeta en su cabeza podremos matarla igual instantáneamente pero solo tienes un tiro y sabes lo que pasará si fallas el tiro.
+                    - Fuego: A pesar de ser muy fuerte si le prendemos fuego la Witch morirá irremediablemente en 15 segundos.
+                    - 4 en Raya: Como dice el nombre si se le pega a la Witch con un arma melee está morirá igualmente de solo 4 golpes pero es mejor coordinar con tu equipo puesto que será difícil que uno solo le de esos 4 golpes.
+                    Lo Especial: En este caso la Witch es el único zombi infectado que no podremos controlar en el modo enfrentamiento del juego, aparte la Witch se encuentra en "2 estados" por así decirlo en dónde en el primero estará en modo tranquila en el que se escuchará sus lamentos, y el segundo estado en el que comenzará a atacar al superviviente que le halla molestado, una ves que mate al superviviente está solo escapara no atacará a los otros.</textarea></td>
+                <td><img src="spitter1.jfif" height="400" width="300"></td>
+                <td><textarea height="400" width="300">La SPITTER 
+                    Habilidad: La habilidad principal de la Spitter es la de tirar ácido a los supervivientes, del cual este hará daño gradualmente mientras más tiempo se pase sobre el ácido al punto de llegar a incapacitar a los supervivientes, aparte tiene un ataque pasivo el cual trata de que al morir está soltará igual ácido en el punto en el que muera.
+                    Puntos de vida: La Spitter cuenta con puntos vida
+                    Debilidades:
+                    - Empujón: De las mayores debilidades de los infectados, está morirá tan solo de 4 empujones, aparte de que si se dispone a atacar y justo le empujamos en el momento exacto está llegará a perder su carga de ácido.
+                    - Fuego: Al no contar con muchos puntos de vida está morirá en segundos si se le prende fuego.
+                    - Tiempo de reacción: Una ves que la Spitter ataque está no se podra mover durante un periodo corto de tiempo lo que le hará muy vulnerable a los disparos de los supervivientes.
+                    Tiempo de Recarga: Una ves ataque la Spitter tendrá que esperar segundos para volver a cargar su ataque y volver a atacar, lo que la hace un infectado de muy poco uso.</textarea></td>
+            </tr>
+            <tr>
+                <td><img src="boomer1.jfif" height="400" width="300"></td>
+                <td><textarea height="400" width="300">El BOOMER
+                    Habilidad: El Boomer tiene la habilidad de votar un líquido (bilis) que tiene de especial reducir nuestra capacidad de la vista aparte de que esté desprende un olor especial el cual atrae a ordas de zombis que harán el trabajo por él, es decir el de matarnos.
+                    Puntos de Vida: El Boomer es de los infectados más débiles que hay pues este solo cuenta con 50 puntos de vida.
+                    Debilidades: 
+                    - Fuego: Al ser un infectado muy débil este morirá en menos de 20 segundos una ves se le prenda en fuego.
+                    - Empujones: Al igual que los demás infectados este morirá con solo 4 empujones, aparte lo peor es que al momento de empujarlo este perderá si habilidad y tendrá que esperar un determinado tiempo para volver a atacar.
+                    Tiempo de Recarga: El Boomer volvera a tener su ataque pasado 30 segundos sin importar dónde halla disparado su bilis, aparte tiene una muerte pasiva que consiste en explotar, pero hay que tener cuidado puesto que votará igual toda su bilis a los que estén cerca de el, está muerte puede afectar tanto a supervivientes como a infectados.</textarea></td>
+                <td><img src="tank1.jfif" height="400" width="300"></td>
+                <td><textarea height="400" width="300">El TANK
+                    Habilidad: Es de los infectados más fuertes que hay en el juego, este tiene la habilidad de tirar piedras y autos a los supervivientes y causar un gran daño de area, tiene una segunda habilidad en la cual si está cerca de los supervivientes este podrá golpearlos y hacerlos volar grandes distancias, hay que tener cuidado pues cada golpe quita un mínimo de 20 puntos de vida en modo normal y en experto realista puede dejar incapacitado a un superviviente de un solo golpe.
+                    Puntos de Vida: Dependiendo de la dificultad en la que nos Encontremos el Tank contara con puntos de vida variados siendo:
+                    - 6000 en dificultad FACIL
+                    - 7000 en dificultad MEDIO 
+                    - 10000 en dificultad DIFICIL
+                    - 13000 en dificultad EXPERTO 
+                    - 15000 en dificultad REALISTA EXPERTO
+                    Debilidades:
+                    - Fuego: Una ves se le queme al Tank este morirá en 75 segundos pero no te confíes pues este tiempo es suficiente para deshacerse de tu equipo entero.
+                    - Bilis de Boomer: Aún que no es una debilidad en si, se puede agarrar la bilis de Boomer para tirarle al Tank y así hacer que los zombis lo ataquen a él, pero no es recomendable pues cuando acabe el efecto de la bilis los zombis cambiarán de objetivo. ¡TÚ!
+                    Tiempo de Carga: El Tank puede tirar sus piedras cada 6 segundos pero la habilidad empieza a cargar apenas se active por lo que el ataque parece casi cada segundo, pero mientras carga la piedra se vuelve vulnerable a los disparos.</textarea></td>
+            </tr>
+        </table>
+        
+        <div class="back-to-nav">
+            <a href="#">Vuelve al Inicio de Pagina</a>
+        </div>
+    </section>
+</body>
+</html>
